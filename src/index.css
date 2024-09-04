@@ -1,0 +1,72 @@
+body{
+  background-color: black;
+}
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 4rem;
+  color: whitesmoke;
+}
+button{
+  font-size: 1.7em;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+.add-butt{
+  background-color: green;
+}
+.add-butt:hover{
+  background-color: rgb(56, 236, 56);
+}
+.Del-butt{
+  background-color: red;
+  width: 120px;        
+  height: 45px;        
+  padding: 5px 10px;  
+  font-size: 30px;
+}
+.Del-butt:hover{
+  background-color: rgb(237, 80, 80);
+}
+.move-butt{
+  background-color: rgb(35, 141, 207);
+}
+.move-butt:hover{
+  background-color: rgb(110, 204, 228);
+}
+input[type="text"]{
+  font-size: 1.6em;
+  padding: 10px;
+  color: rgb(24, 1, 1);
+  border: 2px solid lightcyan;
+  border-radius: 5px; 
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 10px;
+ 
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex:1;
+  color: white;
+}
+.del-butt, .move-butt{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
